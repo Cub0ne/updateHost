@@ -30,8 +30,8 @@ jobs:
       - name: Commit and push if changed
         run: |
           git diff
-          git config --local user.email "mkyrie05@gmail.com"
-          git config --local user.name "action_bot"
+          git config --global user.email "mkyrie05@gmail.com"
+          git config --global user.name "action_bot"
           git add hosts.txt
           git commit -m "Github Action auto Updated"
           git push
