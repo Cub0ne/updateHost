@@ -12,21 +12,29 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+          cache: 'pip'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  
-
-      - name: fetch ippython update.py
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: fetch ip
         run: |
           python update.py
       - name: Check on failures
         if: steps.commit.outputs.status == 'failure'
         run: exit 1
-      - name: Push changes
-        uses: ad-m/github-push-action@main
+      - name: Commit and push if changed
+        run: |
+          git diff
+          git config --global user.email "mkyrie05@gmail.com"
+          git config --global user.name "cubone"
+          git add hosts.txt
+          git commit -m "Github Action auto Updated"
+          git push
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
