@@ -1,10 +1,10 @@
 # Update Host Start
 185.199.108.153	github.io
-140.82.114.4	github.com
+140.82.112.3	github.com
 192.0.66.2	github.blog
 185.199.108.133	raw.github.com
 140.82.114.6	api.github.com
-140.82.114.4	gist.github.com
+140.82.113.3	gist.github.com
 140.82.114.17	status.github.com
 140.82.112.21	central.github.com
 140.82.113.9	codeload.github.com
@@ -43,4 +43,4 @@
 52.109.12.164	contentsync.onenote.com
 13.107.42.12	bn1301.storage.live.com
 131.253.14.227	skyapi.onedrive.live.com
-# Update Host End 2022-03-01 18:07:04 更新
+# Update Host End 2022-03-02 00:27:33 更新
