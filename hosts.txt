@@ -30,12 +30,12 @@
 64.71.144.211	github.community
 185.199.108.133	github.map.fastly.net
 199.232.69.194	github.global.ssl.fastly.net
-52.216.90.44	github-com.s3.amazonaws.com
-52.216.90.44	github-cloud.s3.amazonaws.com
+52.216.100.147	github-com.s3.amazonaws.com
+52.216.82.248	github-cloud.s3.amazonaws.com
 185.199.108.133	objects.githubusercontent.com
 185.199.108.154	github-releases.githubusercontent.com
-54.231.134.97	github-production-user-asset-6210df.s3.amazonaws.com
-54.231.140.233	github-production-release-asset-2e65be.s3.amazonaws.com
+52.217.0.220	github-production-user-asset-6210df.s3.amazonaws.com
+52.217.105.68	github-production-release-asset-2e65be.s3.amazonaws.com
 52.216.241.132	github-production-repository-file-5c1aeb.s3.amazonaws.com
 13.107.42.12	api.onedrive.com
 23.66.88.59	api.onedrive.live.com
@@ -43,4 +43,4 @@
 52.109.12.157	contentsync.onenote.com
 40.90.136.1	bn1301.storage.live.com
 13.105.28.18	skyapi.onedrive.live.com
-# Update Host End 2022-05-08 20:11:28 更新
+# Update Host End 2022-05-09 02:07:45 更新
