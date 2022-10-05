@@ -1,13 +1,13 @@
 # Update Host Start
 185.199.108.153	github.io
-140.82.112.4	github.com
+140.82.113.3	github.com
 192.0.66.2	github.blog
 185.199.108.133	raw.github.com
 140.82.112.6	api.github.com
-140.82.112.4	gist.github.com
-140.82.114.17	status.github.com
-140.82.112.22	central.github.com
-140.82.114.10	codeload.github.com
+140.82.113.4	gist.github.com
+140.82.113.17	status.github.com
+140.82.112.21	central.github.com
+140.82.113.10	codeload.github.com
 185.199.108.153	assets-cdn.github.com
 185.199.108.154	github.githubassets.com
 185.199.108.133	raw.githubusercontent.com
@@ -37,10 +37,10 @@
 52.217.12.228	github-production-user-asset-6210df.s3.amazonaws.com
 3.5.9.115	github-production-release-asset-2e65be.s3.amazonaws.com
 52.216.171.51	github-production-repository-file-5c1aeb.s3.amazonaws.com
-13.107.42.12	api.onedrive.com
-23.5.236.161	api.onedrive.live.com
+13.107.43.12	api.onedrive.com
+104.105.45.130	api.onedrive.live.com
 13.107.42.13	onedrive.live.com
 52.109.12.156	contentsync.onenote.com
 40.90.136.1	bn1301.storage.live.com
-131.253.14.227	skyapi.onedrive.live.com
-# Update Host End 2022-10-05 08:54:49 更新
+40.90.133.102	skyapi.onedrive.live.com
+# Update Host End 2022-10-05 14:25:44 更新
