@@ -44,3 +44,4 @@ bn1301.storage.live.com
 skyapi.onedrive.live.com
 skyweb.skyprod.akadns.net
 webedgegeo.skyprod.akadns.net
+translate.googleapis.com
