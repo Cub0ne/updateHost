@@ -44,4 +44,4 @@
 40.90.136.1	bn1301.storage.live.com
 40.90.136.1	skyapi.onedrive.live.com
 173.194.209.95	translate.googleapis.com
-# Update Host End 2022-11-04 02:10:27 更新
+# Update Host End 2022-11-04 08:43:42 更新
