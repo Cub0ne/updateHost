@@ -1,9 +1,9 @@
 # Update Host Start
 185.199.108.153	github.io
-140.82.113.3	github.com
+140.82.112.4	github.com
 192.0.66.2	github.blog
 185.199.108.133	raw.github.com
-140.82.114.6	api.github.com
+140.82.113.6	api.github.com
 140.82.112.3	gist.github.com
 140.82.112.17	status.github.com
 140.82.114.22	central.github.com
@@ -30,7 +30,7 @@
 140.82.112.18	github.community
 185.199.108.133	github.map.fastly.net
 151.101.1.194	github.global.ssl.fastly.net
-52.216.249.100	github-com.s3.amazonaws.com
+52.217.131.145	github-com.s3.amazonaws.com
 52.217.199.145	github-cloud.s3.amazonaws.com
 185.199.108.133	objects.githubusercontent.com
 185.199.108.154	github-releases.githubusercontent.com
@@ -39,9 +39,9 @@
 52.217.140.201	github-production-repository-file-5c1aeb.s3.amazonaws.com
 13.107.42.12	api.onedrive.com
 23.78.170.96	api.onedrive.live.com
-13.107.42.13	onedrive.live.com
+13.107.43.13	onedrive.live.com
 52.109.12.156	contentsync.onenote.com
 40.90.136.1	bn1301.storage.live.com
 20.135.4.160	skyapi.onedrive.live.com
 142.251.163.95	translate.googleapis.com
-# Update Host End 2022-11-16 20:14:02 更新
+# Update Host End 2022-11-17 02:09:16 更新
