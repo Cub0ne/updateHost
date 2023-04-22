@@ -31,16 +31,14 @@ address_ip = {}
 def _parse(html_data, site):
     if html_data is None:
         return
-    soup = BeautifulSoup(html_data, 'lxml')
+    # 解析响应内容
+    soup = BeautifulSoup(html_data, "html.parser")
     try:
-        address = soup.find(id='dnsinfo').find_all('tr')
-        for tr in address:
-            if tr.find_all('td')[1].text == 'A':
-                ip = tr.find('a').text
-                if ip is not None:
-                    address_ip[site] = ip
-                    print(ip + "\t" + site)
-                    break
+        ipv4_list = soup.find('th', text='IPv4 Addresses').find_next_sibling('td').find_all('li')
+        for ipv4 in ipv4_list:
+            if ipv4 is not None:
+                address_ip[site] = ipv4.text
+                break
     except AttributeError as error:
         print(error)
 
@@ -58,7 +56,7 @@ def _update():
 
 if __name__ == '__main__':
     domains = []
-    ipaddress = 'https://ipaddress.com/website/'
+    ipaddress = 'https://ipaddress.com/site/'
     with open('domain.txt', 'r', encoding='utf-8') as d:
         for line in d.readlines():
             domains.append(line.strip())
