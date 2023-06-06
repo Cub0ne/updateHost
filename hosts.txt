@@ -42,6 +42,6 @@
 13.107.42.13	onedrive.live.com
 52.109.13.20	contentsync.onenote.com
 40.90.136.1	bn1301.storage.live.com
-20.135.1.4	skyapi.onedrive.live.com
+40.90.130.192	skyapi.onedrive.live.com
 142.251.16.95	translate.googleapis.com
-# Update Host End 2023-06-05 10:48:15 更新
+# Update Host End 2023-06-06 10:53:40 更新
